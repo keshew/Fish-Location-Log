@@ -12,7 +12,7 @@
       vars:
         APP_STORE_CONNECT_KEY: fishlog_appkey
         APP_STORE_APPLE_ID: 6757950087
-        BUNDLE_ID: "com.app.icelurenotess"
+        BUNDLE_ID: "com.app.fishlocationlog"
         XCODE_PROJECT: "Fish Location Log.xcodeproj"
         XCODE_SCHEME: "Fish Location Log"
     scripts:
