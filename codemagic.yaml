@@ -8,7 +8,7 @@
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.app.icelurenotess
+        bundle_identifier: com.app.fishlocationlog
       vars:
         APP_STORE_CONNECT_KEY: fishlog_appkey
         APP_STORE_APPLE_ID: 6757950087
