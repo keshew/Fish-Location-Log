@@ -300,8 +300,6 @@ struct LocationsView: View {
     }
 }
 
-
-// MARK: - Полностью функциональная LocationCardView
 struct LocationCardView: View {
     let location: Location
     @ObservedObject var viewModel: AppViewModel

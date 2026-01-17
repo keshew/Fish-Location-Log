@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		866169932F17A84000A3893E /* Fish Location Log */ = {
+		866169932F17A84000A3893E /* Place Location Log */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Fish Location Log";
+			path = "Place Location Log";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		866169882F17A84000A3893E = {
 			isa = PBXGroup;
 			children = (
-				866169932F17A84000A3893E /* Fish Location Log */,
+				866169932F17A84000A3893E /* Place Location Log */,
 				866169922F17A84000A3893E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				866169932F17A84000A3893E /* Fish Location Log */,
+				866169932F17A84000A3893E /* Place Location Log */,
 			);
 			name = "Place Location Log";
 			packageProductDependencies = (
@@ -251,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"Fish Location Log/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Place Location Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Place Location Log";
@@ -285,7 +285,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"Fish Location Log/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Place Location Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Place Location Log";

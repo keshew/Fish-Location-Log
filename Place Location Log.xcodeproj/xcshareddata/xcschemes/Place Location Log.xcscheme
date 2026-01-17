@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "866169902F17A84000A3893E"
-               BuildableName = "Fish Location Log.app"
-               BlueprintName = "Fish Location Log"
-               ReferencedContainer = "container:Fish Location Log.xcodeproj">
+               BuildableName = "Place Location Log.app"
+               BlueprintName = "Place Location Log"
+               ReferencedContainer = "container:Place Location Log.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "866169902F17A84000A3893E"
-            BuildableName = "Fish Location Log.app"
-            BlueprintName = "Fish Location Log"
-            ReferencedContainer = "container:Fish Location Log.xcodeproj">
+            BuildableName = "Place Location Log.app"
+            BlueprintName = "Place Location Log"
+            ReferencedContainer = "container:Place Location Log.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "866169902F17A84000A3893E"
-            BuildableName = "Fish Location Log.app"
-            BlueprintName = "Fish Location Log"
-            ReferencedContainer = "container:Fish Location Log.xcodeproj">
+            BuildableName = "Place Location Log.app"
+            BlueprintName = "Place Location Log"
+            ReferencedContainer = "container:Place Location Log.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
