@@ -6,11 +6,62 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8655E0432F22DFD600F374DD /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8655E0422F22DFD600F374DD /* FirebaseCore */; };
+		8655E0452F22DFD600F374DD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8655E0442F22DFD600F374DD /* FirebaseMessaging */; };
+		8655E0482F22DFEC00F374DD /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8655E0472F22DFEC00F374DD /* AppsFlyerLib */; };
+		8655E07A2F22E46700F374DD /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8655E0732F22E46700F374DD /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8655E0832F22E48900F374DD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8655E0822F22E48900F374DD /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8655E0782F22E46700F374DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866169892F17A84000A3893E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8655E0722F22E46700F374DD;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8655E07F2F22E46700F374DD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8655E07A2F22E46700F374DD /* NotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8655E0732F22E46700F374DD /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		866169912F17A84000A3893E /* Place Location Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Place Location Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8655E07B2F22E46700F374DD /* Exceptions for "NotificationService" folder in "NotificationService" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8655E0722F22E46700F374DD /* NotificationService */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		8655E0742F22E46700F374DD /* NotificationService */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8655E07B2F22E46700F374DD /* Exceptions for "NotificationService" folder in "NotificationService" target */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
 		866169932F17A84000A3893E /* Place Location Log */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Place Location Log";
@@ -19,20 +70,40 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8655E0702F22E46700F374DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8655E0832F22E48900F374DD /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8661698E2F17A84000A3893E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8655E0452F22DFD600F374DD /* FirebaseMessaging in Frameworks */,
+				8655E0432F22DFD600F374DD /* FirebaseCore in Frameworks */,
+				8655E0482F22DFEC00F374DD /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8655E0812F22E48900F374DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		866169882F17A84000A3893E = {
 			isa = PBXGroup;
 			children = (
 				866169932F17A84000A3893E /* Place Location Log */,
+				8655E0742F22E46700F374DD /* NotificationService */,
+				8655E0812F22E48900F374DD /* Frameworks */,
 				866169922F17A84000A3893E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				866169912F17A84000A3893E /* Place Location Log.app */,
+				8655E0732F22E46700F374DD /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +120,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8655E0722F22E46700F374DD /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8655E07C2F22E46700F374DD /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				8655E06F2F22E46700F374DD /* Sources */,
+				8655E0702F22E46700F374DD /* Frameworks */,
+				8655E0712F22E46700F374DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8655E0742F22E46700F374DD /* NotificationService */,
+			);
+			name = NotificationService;
+			packageProductDependencies = (
+				8655E0822F22E48900F374DD /* FirebaseMessaging */,
+			);
+			productName = NotificationService;
+			productReference = 8655E0732F22E46700F374DD /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		866169902F17A84000A3893E /* Place Location Log */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8661699F2F17A84100A3893E /* Build configuration list for PBXNativeTarget "Place Location Log" */;
@@ -55,16 +150,21 @@
 				8661698D2F17A84000A3893E /* Sources */,
 				8661698E2F17A84000A3893E /* Frameworks */,
 				8661698F2F17A84000A3893E /* Resources */,
+				8655E07F2F22E46700F374DD /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8655E0792F22E46700F374DD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				866169932F17A84000A3893E /* Place Location Log */,
 			);
 			name = "Place Location Log";
 			packageProductDependencies = (
+				8655E0422F22DFD600F374DD /* FirebaseCore */,
+				8655E0442F22DFD600F374DD /* FirebaseMessaging */,
+				8655E0472F22DFEC00F374DD /* AppsFlyerLib */,
 			);
 			productName = "Fish Location Log";
 			productReference = 866169912F17A84000A3893E /* Place Location Log.app */;
@@ -80,6 +180,9 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					8655E0722F22E46700F374DD = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					866169902F17A84000A3893E = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -94,17 +197,29 @@
 			);
 			mainGroup = 866169882F17A84000A3893E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8655E0412F22DFD600F374DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8655E0462F22DFEC00F374DD /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 866169922F17A84000A3893E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				866169902F17A84000A3893E /* Place Location Log */,
+				8655E0722F22E46700F374DD /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8655E0712F22E46700F374DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8661698F2F17A84000A3893E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +230,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8655E06F2F22E46700F374DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8661698D2F17A84000A3893E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +246,75 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8655E0792F22E46700F374DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8655E0722F22E46700F374DD /* NotificationService */;
+			targetProxy = 8655E0782F22E46700F374DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8655E07D2F22E46700F374DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LXB89T24H7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fishlocationlog.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = fishlogextension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8655E07E2F22E46700F374DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LXB89T24H7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fishlocationlog.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = fishlogextension;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8661699D2F17A84100A3893E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -249,12 +439,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Place Location Log/Place Location Log.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Place Location Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Place-Location-Log-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Place Location Log";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to take photos and record videos.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We collect usage data to enhance app performance, improve features, and provide a better user experience. Your information remains secure and is not shared with third parties for advertising purposes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -265,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.fishlocationlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -283,12 +477,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Place Location Log/Place Location Log.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Place Location Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Place-Location-Log-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Place Location Log";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to take photos and record videos.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We collect usage data to enhance app performance, improve features, and provide a better user experience. Your information remains secure and is not shared with third parties for advertising purposes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.fishlocationlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -315,6 +513,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8655E07C2F22E46700F374DD /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8655E07D2F22E46700F374DD /* Debug */,
+				8655E07E2F22E46700F374DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8661698C2F17A84000A3893E /* Build configuration list for PBXProject "Place Location Log" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -334,6 +541,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8655E0412F22DFD600F374DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		8655E0462F22DFEC00F374DD /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8655E0422F22DFD600F374DD /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8655E0412F22DFD600F374DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8655E0442F22DFD600F374DD /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8655E0412F22DFD600F374DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8655E0472F22DFEC00F374DD /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8655E0462F22DFEC00F374DD /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		8655E0822F22E48900F374DD /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8655E0412F22DFD600F374DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 866169892F17A84000A3893E /* Project object */;
 }
