@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "866169902F17A84000A3893E"
-               BuildableName = "Place Place Log Location Log.app"
-               BlueprintName = "Place Place Log Location Log"
+               BuildableName = "Place Log Location.app"
+               BlueprintName = "Place Log Location"
                ReferencedContainer = "container:Place Log Location.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "866169902F17A84000A3893E"
-            BuildableName = "Place Place Log Location Log.app"
-            BlueprintName = "Place Place Log Location Log"
+            BuildableName = "Place Log Location.app"
+            BlueprintName = "Place Log Location"
             ReferencedContainer = "container:Place Log Location.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "866169902F17A84000A3893E"
-            BuildableName = "Place Place Log Location Log.app"
-            BlueprintName = "Place Place Log Location Log"
+            BuildableName = "Place Log Location.app"
+            BlueprintName = "Place Log Location"
             ReferencedContainer = "container:Place Log Location.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
