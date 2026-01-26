@@ -13,8 +13,8 @@
         APP_STORE_CONNECT_KEY: fishlog_appkey
         APP_STORE_APPLE_ID: 6757950087
         BUNDLE_ID: "com.app.fishlocationlog"
-        XCODE_PROJECT: "Place Location Log.xcodeproj"
-        XCODE_SCHEME: "Place Location Log"
+        XCODE_PROJECT: "Place Log Location.xcodeproj"
+        XCODE_SCHEME: "Place Log Location"
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles

@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		8655E0732F22E46700F374DD /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		866169912F17A84000A3893E /* Place Location Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Place Location Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		866169912F17A84000A3893E /* Place Place Log Location Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Place Place Log Location Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -62,9 +62,9 @@
 			path = NotificationService;
 			sourceTree = "<group>";
 		};
-		866169932F17A84000A3893E /* Place Location Log */ = {
+		866169932F17A84000A3893E /* Place Log Location */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Place Location Log";
+			path = "Place Log Location";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -101,7 +101,7 @@
 		866169882F17A84000A3893E = {
 			isa = PBXGroup;
 			children = (
-				866169932F17A84000A3893E /* Place Location Log */,
+				866169932F17A84000A3893E /* Place Log Location */,
 				8655E0742F22E46700F374DD /* NotificationService */,
 				8655E0812F22E48900F374DD /* Frameworks */,
 				866169922F17A84000A3893E /* Products */,
@@ -111,7 +111,7 @@
 		866169922F17A84000A3893E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				866169912F17A84000A3893E /* Place Location Log.app */,
+				866169912F17A84000A3893E /* Place Place Log Location Log.app */,
 				8655E0732F22E46700F374DD /* NotificationService.appex */,
 			);
 			name = Products;
@@ -143,9 +143,9 @@
 			productReference = 8655E0732F22E46700F374DD /* NotificationService.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		866169902F17A84000A3893E /* Place Location Log */ = {
+		866169902F17A84000A3893E /* Place Place Log Location Log */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8661699F2F17A84100A3893E /* Build configuration list for PBXNativeTarget "Place Location Log" */;
+			buildConfigurationList = 8661699F2F17A84100A3893E /* Build configuration list for PBXNativeTarget "Place Place Log Location Log" */;
 			buildPhases = (
 				8661698D2F17A84000A3893E /* Sources */,
 				8661698E2F17A84000A3893E /* Frameworks */,
@@ -158,16 +158,16 @@
 				8655E0792F22E46700F374DD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				866169932F17A84000A3893E /* Place Location Log */,
+				866169932F17A84000A3893E /* Place Log Location */,
 			);
-			name = "Place Location Log";
+			name = "Place Place Log Location Log";
 			packageProductDependencies = (
 				8655E0422F22DFD600F374DD /* FirebaseCore */,
 				8655E0442F22DFD600F374DD /* FirebaseMessaging */,
 				8655E0472F22DFEC00F374DD /* AppsFlyerLib */,
 			);
 			productName = "Fish Location Log";
-			productReference = 866169912F17A84000A3893E /* Place Location Log.app */;
+			productReference = 866169912F17A84000A3893E /* Place Place Log Location Log.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8661698C2F17A84000A3893E /* Build configuration list for PBXProject "Place Location Log" */;
+			buildConfigurationList = 8661698C2F17A84000A3893E /* Build configuration list for PBXProject "Place Log Location" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -206,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				866169902F17A84000A3893E /* Place Location Log */,
+				866169902F17A84000A3893E /* Place Place Log Location Log */,
 				8655E0722F22E46700F374DD /* NotificationService */,
 			);
 		};
@@ -441,12 +441,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Place Location Log/Place Location Log.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Place Location Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Place-Location-Log-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Place Location Log";
+				INFOPLIST_KEY_CFBundleDisplayName = "Place Log Location";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to take photos and record videos.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We collect usage data to enhance app performance, improve features, and provide a better user experience. Your information remains secure and is not shared with third parties for advertising purposes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.fishlocationlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -479,12 +479,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Place Location Log/Place Location Log.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Place Location Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Place-Location-Log-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Place Location Log";
+				INFOPLIST_KEY_CFBundleDisplayName = "Place Log Location";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to take photos and record videos.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We collect usage data to enhance app performance, improve features, and provide a better user experience. Your information remains secure and is not shared with third parties for advertising purposes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -497,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.fishlocationlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8661698C2F17A84000A3893E /* Build configuration list for PBXProject "Place Location Log" */ = {
+		8661698C2F17A84000A3893E /* Build configuration list for PBXProject "Place Log Location" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8661699D2F17A84100A3893E /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8661699F2F17A84100A3893E /* Build configuration list for PBXNativeTarget "Place Location Log" */ = {
+		8661699F2F17A84100A3893E /* Build configuration list for PBXNativeTarget "Place Place Log Location Log" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				866169A02F17A84100A3893E /* Debug */,
