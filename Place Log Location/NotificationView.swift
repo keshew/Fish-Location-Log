@@ -55,7 +55,7 @@ struct NotificationView: View {
                             }) {
                                 Image("skip")
                                     .resizable()
-                                    .frame(width: 250, height: 30)
+                                    .frame(width: 250, height: 33)
                             }
                         }
                     }
